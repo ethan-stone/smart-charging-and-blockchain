@@ -35,20 +35,6 @@ export default function ChargingProfile() {
           </button>
         </div>
       </div>
-      <div className="flex flex-row gap-20">
-        <button
-          className="bg-white shadow-lg px-10 py-5 rounded"
-          onClick={() => navigate("/setup")}
-        >
-          <ArrowLeftIcon className="h-5 w-5 text-green-600" />
-        </button>
-        <button
-          className="bg-white shadow-lg px-10 py-5 rounded"
-          onClick={() => navigate("/start-charge")}
-        >
-          <ArrowNarrowRightIcon className="h-5 w-5 text-green-600" />
-        </button>
-      </div>
     </div>
   );
 }
