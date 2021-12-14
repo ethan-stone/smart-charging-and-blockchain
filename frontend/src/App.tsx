@@ -5,7 +5,6 @@ import {
   WalletProvider
 } from "@solana/wallet-adapter-react";
 import { Route, Routes } from "react-router-dom";
-import StartCharge from "./pages/StartCharge";
 import Overview from "./pages/Overview";
 import Terminology from "./pages/Terminology";
 import ConnectWallet from "./pages/ConnectWallet";
@@ -27,7 +26,6 @@ function App() {
             <Route path="/terminology" element={<Terminology />} />
             <Route path="/connect-wallet" element={<ConnectWallet />} />
             <Route path="/setup" element={<Setup />} />
-            <Route path="/start-charge" element={<StartCharge />} />
             <Route path="*" element={<Overview />} />
           </Routes>
         </main>

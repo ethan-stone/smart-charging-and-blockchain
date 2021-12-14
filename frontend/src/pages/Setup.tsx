@@ -131,12 +131,6 @@ export default function Setup() {
         >
           <ArrowLeftIcon className="h-5 w-5 text-green-600" />
         </button>
-        <button
-          className="bg-white shadow-lg px-10 py-5 rounded"
-          onClick={() => navigate("/start-charge")}
-        >
-          <ArrowNarrowRightIcon className="h-5 w-5 text-green-600" />
-        </button>
       </div>
     </div>
   );
